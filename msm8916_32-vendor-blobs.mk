@@ -596,7 +596,6 @@ PRODUCT_COPY_FILES += \
 	$(VENDOR)/lib/liboemcamera.so:system/vendor/lib/liboemcamera.so \
 	$(VENDOR)/lib/libOmxAacDec.so:system/vendor/lib/libOmxAacDec.so \
 	$(VENDOR)/lib/libOmxEvrcDec.so:system/vendor/lib/libOmxEvrcDec.so \
-	$(VENDOR)/lib/libOmxMux.so:system/vendor/lib/libOmxMux.so \
 	$(VENDOR)/lib/libOmxQcelp13Dec.so:system/vendor/lib/libOmxQcelp13Dec.so \
 	$(VENDOR)/lib/libOpenCL.so:system/vendor/lib/libOpenCL.so \
 	$(VENDOR)/lib/libperipheral_client.so:system/vendor/lib/libperipheral_client.so \
