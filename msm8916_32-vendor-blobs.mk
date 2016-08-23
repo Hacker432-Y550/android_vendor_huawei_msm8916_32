@@ -24,7 +24,6 @@ VENDOR := vendor/huawei/msm8916_32/proprietary/vendor
 PRODUCT_COPY_FILES += \
 	$(BIN)/adsprpcd:system/bin/adsprpcd \
 	$(BIN)/btnvtool:system/bin/btnvtool \
-	$(BIN)/callife:system/bin/callife \
 	$(BIN)/hci_qcomm_init:system/bin/hci_qcomm_init \
 	$(BIN)/irsc_util:system/bin/irsc_util \
 	$(BIN)/location-mq:system/bin/location-mq \
