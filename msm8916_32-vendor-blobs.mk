@@ -32,7 +32,7 @@ PRODUCT_COPY_FILES += \
 	$(BIN)/mpdecision:system/bin/mpdecision \
 	$(BIN)/msm_irqbalance:system/bin/msm_irqbalance \
 	$(BIN)/netmgrd:system/bin/netmgrd \
-	$(BIN)/qmuxd:system/bin/qmuxd \	
+	$(BIN)/qmuxd:system/bin/qmuxd \
 	$(BIN)/qseecomd:system/bin/qseecomd \
 	$(BIN)/radish:system/bin/radish \
 	$(BIN)/rfs_access:system/bin/rfs_access \
