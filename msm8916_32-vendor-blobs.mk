@@ -32,6 +32,7 @@ PRODUCT_COPY_FILES += \
 	$(BIN)/mpdecision:system/bin/mpdecision \
 	$(BIN)/msm_irqbalance:system/bin/msm_irqbalance \
 	$(BIN)/netmgrd:system/bin/netmgrd \
+	$(BIN)/qmuxd:system/bin/qmuxd \	
 	$(BIN)/qseecomd:system/bin/qseecomd \
 	$(BIN)/radish:system/bin/radish \
 	$(BIN)/rfs_access:system/bin/rfs_access \
@@ -592,6 +593,7 @@ PRODUCT_COPY_FILES += \
 	$(VENDOR)/lib/libmmjpeg.so:system/vendor/lib/libmmjpeg.so \
 	$(VENDOR)/lib/libmmosal.so:system/vendor/lib/libmmosal.so \
 	$(VENDOR)/lib/libmmparser.so:system/vendor/lib/libmmparser.so \
+	$(VENDOR)/lib/libmmqjpeg_codec.so:system/vendor/lib/libmmqjpeg_codec.so \
 	$(VENDOR)/lib/libnetmgr.so:system/vendor/lib/libnetmgr.so \
 	$(VENDOR)/lib/liboemcamera.so:system/vendor/lib/liboemcamera.so \
 	$(VENDOR)/lib/libOmxAacDec.so:system/vendor/lib/libOmxAacDec.so \
