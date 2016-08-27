@@ -27,6 +27,7 @@ PRODUCT_COPY_FILES += \
 	$(BIN)/hci_qcomm_init:system/bin/hci_qcomm_init \
 	$(BIN)/irsc_util:system/bin/irsc_util \
 	$(BIN)/location-mq:system/bin/location-mq \
+	$(BIN)/libqmi_oem_main:system/bin/libqmi_oem_main \
 	$(BIN)/mm-pp-daemon:system/bin/mm-pp-daemon \
 	$(BIN)/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
 	$(BIN)/mpdecision:system/bin/mpdecision \
@@ -89,6 +90,7 @@ PRODUCT_COPY_FILES += \
 
 # Files that live under system/lib
 PRODUCT_COPY_FILES += \
+	$(LIB)/hw/lights.msm8916.so:system/lib/hw/lights.msm8916.so \
 	$(LIB)/hw/sensors.msm8916.so:system/lib/hw/sensors.msm8916.so \
 	$(LIB)/libchromatix_imx135_liveshot.so:system/lib/libchromatix_imx135_liveshot.so \
 	$(LIB)/libcutilz.so:system/lib/libcutilz.so \
@@ -96,6 +98,7 @@ PRODUCT_COPY_FILES += \
 	$(LIB)/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
 	$(LIB)/libmm-qcamera.so:system/lib/libmm-qcamera.so \
 	$(LIB)/liboeminfo.so:system/lib/liboeminfo.so \
+	$(LIB)/libqmi_oem_api.so:system/lib/libqmi_oem_api.so \
 	$(LIB)/librmnetctl.so:system/lib/librmnetctl.so
 
 # Files that live under system/vendor
